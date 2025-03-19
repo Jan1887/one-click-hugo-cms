@@ -21,7 +21,7 @@ export class carousel extends Component {
     return <div className="ph3 bg-off-white">
       <div className="center mw6 pv3">
         { widgetFor("body") }
-        <ContactEntries data={contactEntries} />
+        <CarouselEntries data={contactEntries} />
       </div>
     </div>;
   }
