@@ -27,9 +27,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Carousel, name: carousel, widget: carousel, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Image", name: "image", widget: "image"}]}
+              {label: "First Image", name: "image1", widget: "image"},
+              {label: "Second Image", name: "image2", widget: "image"},
+              {label: "Third Image", name: "image3", widget: "image"}]}
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "markdown", buttons: ['bold', 'italic', 'link'], modes: ['rich_text'], editor_components: ['']}]}
