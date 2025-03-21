@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     fields:
       - {label: Title, name: title, widget: string}
-      - {label: Carousel, name: carousel, widget: carousel, fields: [
+      - {label: Carousel, name: carousel, widget: carousel, required: false, fields: [
           {label: "First Image", name: "image1", widget: "image"},
           {label: "Second Image", name: "image2", widget: "image"},
           {label: "Third Image", name: "image3", widget: "image"}]}
