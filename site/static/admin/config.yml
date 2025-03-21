@@ -21,7 +21,6 @@ collections: # A list of collections the CMS should be able to edit
     label: "Pages"
     folder: "site/content/{{slug}}/_index.md"
     create: true
-    slug: "{{slug}}"
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
